@@ -50,7 +50,7 @@ func Load() (*Config, error) {
 	once.Do(func() {
 		viper.SetConfigName("config")
 		viper.SetConfigType("yaml")
-		
+
 		// Add config paths
 		homeDir, _ := os.UserHomeDir()
 		viper.AddConfigPath(filepath.Join(homeDir, ".queuectl"))
@@ -86,7 +86,7 @@ func Load() (*Config, error) {
 func Get() *Config {
 	mu.RLock()
 	defer mu.RUnlock()
-	
+
 	if instance == nil {
 		cfg, _ := Load()
 		return cfg
@@ -100,12 +100,12 @@ func Set(key string, value interface{}) error {
 	defer mu.Unlock()
 
 	viper.Set(key, value)
-	
+
 	// Update instance
 	if instance == nil {
 		instance = &Config{}
 	}
-	
+
 	switch key {
 	case "max_retries", "max-retries":
 		if v, ok := value.(int); ok {

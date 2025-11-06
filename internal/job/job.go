@@ -36,7 +36,7 @@ type Job struct {
 
 // NewJob creates a new job with default values
 func NewJob(command string, maxRetries int) *Job {
-	now := time.Now().UTC()
+	now := time.Now()
 	return &Job{
 		ID:         uuid.New().String(),
 		Command:    command,
@@ -65,7 +65,7 @@ func FromJSON(data string) (*Job, error) {
 	if job.MaxRetries == 0 {
 		job.MaxRetries = 3 // default
 	}
-	now := time.Now().UTC()
+	now := time.Now()
 	if job.CreatedAt.IsZero() {
 		job.CreatedAt = now
 	}

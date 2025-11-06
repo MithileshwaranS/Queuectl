@@ -17,7 +17,7 @@ func CalculateBackoff(attempts int, base float64) time.Duration {
 
 	// Calculate delay in seconds
 	delaySeconds := math.Pow(base, float64(attempts))
-	
+
 	// Cap at reasonable maximum (e.g., 1 hour)
 	const maxDelaySeconds = 3600
 	if delaySeconds > maxDelaySeconds {
