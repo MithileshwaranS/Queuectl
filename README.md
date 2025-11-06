@@ -783,7 +783,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 **Your Name**
 
-- GitHub: [@yourusername](https://github.com/MithileshwaranS)
+- GitHub: [@MithileshwaranS](https://github.com/MithileshwaranS)
 - Email: mithileshwaran24@gmail.com
 
 ---
