@@ -783,8 +783,8 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 **Your Name**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@yourusername](https://github.com/MithileshwaranS)
+- Email: mithileshwaran24@gmail.com
 
 ---
 
@@ -800,7 +800,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 For issues, questions, or contributions:
 
-1. Open an issue on [GitHub Issues](https://github.com/yourusername/queuectl/issues)
+1. Open an issue on [GitHub Issues](https://github.com/MithileshwaranS/queuectl/issues)
 2. Submit a pull request
 3. Contact via email
 
