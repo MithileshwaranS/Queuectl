@@ -1,0 +1,20 @@
+2025/11/09 11:16:30 Starting 2 worker(s)...
+2025/11/09 11:16:30 Worker 9962fa51 started
+2025/11/09 11:16:30 [Worker 9962fa51] Started
+2025/11/09 11:16:30 Worker 34969134 started
+2025/11/09 11:16:30 [Worker 34969134] Started
+2025/11/09 11:16:30 All workers started successfully
+2025/11/09 11:16:30 Press Ctrl+C to stop workers gracefully
+2025/11/09 11:16:31 [Worker 34969134] Processing job 74a68aef-cfa3-4451-828d-eb6b572c91a8: echo Persistence Test 1
+2025/11/09 11:16:31 [Worker 9962fa51] Error fetching job: failed to lock job: database is locked
+2025/11/09 11:16:31 [Worker 34969134] Job 74a68aef-cfa3-4451-828d-eb6b572c91a8 completed successfully (0.01s)
+2025/11/09 11:16:32 [Worker 34969134] Error fetching job: failed to lock job: database is locked
+2025/11/09 11:16:32 [Worker 9962fa51] Processing job 74aeec28-80f9-4f51-b00f-51f54427a904: echo Persistence Test 2
+2025/11/09 11:16:32 [Worker 9962fa51] Job 74aeec28-80f9-4f51-b00f-51f54427a904 completed successfully (0.01s)
+2025/11/09 11:16:37 Received signal: terminated
+2025/11/09 11:16:37 Stopping all workers...
+2025/11/09 11:16:37 [Worker 34969134] Stopping gracefully...
+2025/11/09 11:16:37 [Worker 34969134] Stopped
+2025/11/09 11:16:37 [Worker 9962fa51] Stopping gracefully...
+2025/11/09 11:16:37 [Worker 9962fa51] Stopped
+2025/11/09 11:16:37 All workers stopped

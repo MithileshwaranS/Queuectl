@@ -1,0 +1,35 @@
+2025/11/09 11:16:05 Starting 3 worker(s)...
+2025/11/09 11:16:05 Worker 7a96a229 started
+2025/11/09 11:16:05 [Worker 7a96a229] Started
+2025/11/09 11:16:05 Worker 794c141b started
+2025/11/09 11:16:05 [Worker 794c141b] Started
+2025/11/09 11:16:05 Worker 39b4a66b started
+2025/11/09 11:16:05 [Worker 39b4a66b] Started
+2025/11/09 11:16:05 All workers started successfully
+2025/11/09 11:16:05 Press Ctrl+C to stop workers gracefully
+2025/11/09 11:16:09 [Worker 39b4a66b] Error fetching job: failed to lock job: database is locked
+2025/11/09 11:16:09 [Worker 7a96a229] Processing job job-2: sleep 2 && echo Job 2
+2025/11/09 11:16:09 [Worker 794c141b] Processing job job-3: sleep 2 && echo Job 3
+2025/11/09 11:16:10 [Worker 39b4a66b] Processing job job-4: sleep 2 && echo Job 4
+2025/11/09 11:16:11 [Worker 7a96a229] Job job-2 completed successfully (2.02s)
+2025/11/09 11:16:11 [Worker 794c141b] Job job-3 completed successfully (2.02s)
+2025/11/09 11:16:11 [Worker 7a96a229] Error fetching job: failed to lock job: database is locked
+2025/11/09 11:16:11 [Worker 794c141b] Processing job job-6: sleep 2 && echo Job 6
+2025/11/09 11:16:12 [Worker 39b4a66b] Job job-4 completed successfully (2.02s)
+2025/11/09 11:16:13 [Worker 794c141b] Job job-6 completed successfully (2.02s)
+2025/11/09 11:16:18 [Worker 7a96a229] Error fetching job: failed to lock job: database is locked
+2025/11/09 11:16:18 [Worker 39b4a66b] Processing job a44c6922-e3f5-4daf-b6bf-c5eb707a5293: cat /this/does/not/exist.txt
+2025/11/09 11:16:18 [Worker 39b4a66b] Job a44c6922-e3f5-4daf-b6bf-c5eb707a5293 failed (0.02s): exit status 1
+2025/11/09 11:16:18 [Worker 39b4a66b] Job a44c6922-e3f5-4daf-b6bf-c5eb707a5293 will retry in 1s (attempt 2/1)
+2025/11/09 11:16:19 [Worker 39b4a66b] Processing job a44c6922-e3f5-4daf-b6bf-c5eb707a5293: cat /this/does/not/exist.txt
+2025/11/09 11:16:19 [Worker 39b4a66b] Job a44c6922-e3f5-4daf-b6bf-c5eb707a5293 failed (0.01s): exit status 1
+2025/11/09 11:16:19 [Worker 39b4a66b] Job a44c6922-e3f5-4daf-b6bf-c5eb707a5293 moved to DLQ after 1 attempts
+2025/11/09 11:16:28 Received signal: terminated
+2025/11/09 11:16:28 Stopping all workers...
+2025/11/09 11:16:28 [Worker 39b4a66b] Stopping gracefully...
+2025/11/09 11:16:28 [Worker 7a96a229] Stopping gracefully...
+2025/11/09 11:16:28 [Worker 794c141b] Stopping gracefully...
+2025/11/09 11:16:28 [Worker 794c141b] Stopped
+2025/11/09 11:16:28 [Worker 39b4a66b] Stopped
+2025/11/09 11:16:28 [Worker 7a96a229] Stopped
+2025/11/09 11:16:28 All workers stopped

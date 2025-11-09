@@ -1,0 +1,36 @@
+2025/11/09 11:15:35 Starting 1 worker(s)...
+2025/11/09 11:15:35 Worker d5385912 started
+2025/11/09 11:15:35 [Worker d5385912] Started
+2025/11/09 11:15:35 All workers started successfully
+2025/11/09 11:15:35 Press Ctrl+C to stop workers gracefully
+2025/11/09 11:16:03 Received signal: terminated
+2025/11/09 11:16:03 Stopping all workers...
+2025/11/09 11:16:03 [Worker d5385912] Stopping gracefully...
+2025/11/09 11:16:03 [Worker d5385912] Stopped
+2025/11/09 11:16:03 All workers stopped
+/09 11:15:39 [Worker be7db7a0] Processing job 61d7be16-4678-4a8d-8fb8-27de7e8c031a: echo Hello World from QueueCTL
+2025/11/09 11:15:39 [Worker be7db7a0] Job 61d7be16-4678-4a8d-8fb8-27de7e8c031a completed successfully (0.01s)
+2025/11/09 11:15:47 [Worker be7db7a0] Processing job de694ebe-924d-44e5-8761-d44c287241a7: exit 1
+2025/11/09 11:15:47 [Worker be7db7a0] Job de694ebe-924d-44e5-8761-d44c287241a7 failed (0.01s): exit status 1
+2025/11/09 11:15:47 [Worker be7db7a0] Job de694ebe-924d-44e5-8761-d44c287241a7 will retry in 1s (attempt 2/2)
+2025/11/09 11:15:48 [Worker be7db7a0] Processing job de694ebe-924d-44e5-8761-d44c287241a7: exit 1
+2025/11/09 11:15:48 [Worker be7db7a0] Job de694ebe-924d-44e5-8761-d44c287241a7 failed (0.01s): exit status 1
+2025/11/09 11:15:48 [Worker be7db7a0] Job de694ebe-924d-44e5-8761-d44c287241a7 will retry in 2s (attempt 3/2)
+2025/11/09 11:15:50 [Worker be7db7a0] Processing job de694ebe-924d-44e5-8761-d44c287241a7: exit 1
+2025/11/09 11:15:50 [Worker be7db7a0] Job de694ebe-924d-44e5-8761-d44c287241a7 failed (0.01s): exit status 1
+2025/11/09 11:15:50 [Worker be7db7a0] Job de694ebe-924d-44e5-8761-d44c287241a7 moved to DLQ after 2 attempts
+2025/11/09 11:16:09 [Worker be7db7a0] Processing job job-1: sleep 2 && echo Job 1
+2025/11/09 11:16:11 [Worker be7db7a0] Job job-1 completed successfully (2.03s)
+2025/11/09 11:16:11 [Worker be7db7a0] Processing job job-5: sleep 2 && echo Job 5
+2025/11/09 11:16:13 [Worker be7db7a0] Job job-5 completed successfully (2.02s)
+2025/11/09 11:16:18 [Worker be7db7a0] Processing job 49a4ac64-af20-4c45-b029-c7fdbc73127e: nonexistent_command_xyz
+2025/11/09 11:16:18 [Worker be7db7a0] Job 49a4ac64-af20-4c45-b029-c7fdbc73127e failed (0.02s): exit status 127
+2025/11/09 11:16:18 [Worker be7db7a0] Job 49a4ac64-af20-4c45-b029-c7fdbc73127e will retry in 1s (attempt 2/1)
+2025/11/09 11:16:19 [Worker be7db7a0] Processing job 49a4ac64-af20-4c45-b029-c7fdbc73127e: nonexistent_command_xyz
+2025/11/09 11:16:19 [Worker be7db7a0] Job 49a4ac64-af20-4c45-b029-c7fdbc73127e failed (0.01s): exit status 127
+2025/11/09 11:16:19 [Worker be7db7a0] Job 49a4ac64-af20-4c45-b029-c7fdbc73127e moved to DLQ after 1 attempts
+2025/11/09 11:16:28 Received signal: terminated
+2025/11/09 11:16:28 Stopping all workers...
+2025/11/09 11:16:28 [Worker be7db7a0] Stopping gracefully...
+2025/11/09 11:16:28 [Worker be7db7a0] Stopped
+2025/11/09 11:16:28 All workers stopped

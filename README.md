@@ -711,11 +711,10 @@ Tested on: MacBook Pro M1, 16GB RAM
 
 ## 📺 Demo Video
 
-🎥 **[Watch Demo Video](https://drive.google.com/your-demo-link)**
+🎥 **[Watch Demo Video](https://drive.google.com/drive/folders/140wchemQcsYmAoT6uwUFBwCTg6brEA_Z?usp=sharing)**
 
 Demo includes:
 
-- Installation and setup
 - Enqueuing jobs
 - Starting multiple workers
 - Monitoring job execution
